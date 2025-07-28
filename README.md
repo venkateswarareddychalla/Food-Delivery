@@ -1,8 +1,4 @@
-Here is the **properly formatted `README.md` file** — fully cleaned and fixed. Just **copy and paste directly** into your GitHub `README.md` file ✅
 
----
-
-````markdown
 # 🍽️ Food Delivery Frontend
 
 A modern, responsive food delivery web application built using **React 19** and **Vite**. It offers users a sleek and intuitive interface to browse a menu, manage their cart, and place food orders seamlessly.
