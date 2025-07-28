@@ -122,11 +122,3 @@ Released under the [MIT License](LICENSE).
 Built with 💛 using modern web technologies. Inspired by real-world food delivery UI/UX standards.
 
 ```
-
----
-
-✅ This version **removes the incorrect code block formatting** at the top and ensures proper section rendering. Let me know if you want:
-- Shields/badges (like build status, license, etc.)
-- Screenshots added  
-- GitHub actions or deployment instructions
-```
