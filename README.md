@@ -116,9 +116,3 @@ Released under the [MIT License](LICENSE).
 👉 [**Food Delivery App**](https://food-delivery-nine-gamma.vercel.app/)
 
 ---
-
-## 🙌 Acknowledgements
-
-Built with 💛 using modern web technologies. Inspired by real-world food delivery UI/UX standards.
-
-```
