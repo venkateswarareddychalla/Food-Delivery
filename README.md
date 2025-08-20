@@ -208,6 +208,13 @@ STRIPE_SECRET_KEY=sk_test_your_stripe_secret_key
 PORT=4000
 ```
 
+## Stripe Test Debit Card Numbers
+
+Use these test card numbers with Stripe for testing purposes:
+
+- **India:** `4000 0003 2000 0021`
+- **US:** `4242 4242 4242 4242`
+
 ## 📱 Responsive Design
 
 All applications are fully responsive:
