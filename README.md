@@ -5,8 +5,8 @@ A complete food delivery ecosystem built with **React 19**, **Node.js**, **Expre
 ## 🚀 Live Demo
 
 - **Frontend**: https://food-delivery-frontend-2hty.onrender.com
-- **Backend**: https://food-delivery-backend-1-0.onrender.com
-- **Admin Panel**: https://food-delivery-admin-1-0.onrender.com
+- **Backend**: https://food-delivery-backend-yczg.onrender.com
+- **Admin Panel**: https://food-delivery-admin-doja.onrender.com
 
 ## 📋 Project Overview
 
