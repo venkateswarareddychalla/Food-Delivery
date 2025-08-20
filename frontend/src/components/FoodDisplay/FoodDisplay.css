@@ -1,3 +1,34 @@
+.empty-food-list, .empty-search-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+.empty-food-list h2, .empty-search-list h2{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.empty-food-list img, .empty-search-list img{
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.empty-food-list p, .empty-search-list p{
+    font-size: 24px;
+    color: #555;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.empty-food-list-hr, .empty-search-list-hr{
+    width: 100%;
+    height: 2px;
+    background-color: #e2e2e2;
+    margin-top: 80px;
+}
 .food-display{
     margin-top: 30px;
 }
@@ -12,4 +43,23 @@
     margin-top: 30px;
     gap: 30px;
     row-gap: 50px;
+}
+@media (max-width: 750px) {
+    .empty-food-list img, .empty-search-list img{
+        height: 180px;
+        width: max(180px, 40vw);
+    }
+    .empty-food-list h2, .empty-search-list h2{
+        font-size: 28px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .empty-food-list p, .empty-search-list p{
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .empty-food-list-hr, .empty-search-list-hr{
+        margin-top: 30px;
+    }
 }

@@ -1,0 +1,30 @@
+.home-searchbar-container{
+    border: 2px solid tomato;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 0px 20px;
+}
+.home-searchbar-container input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding-left: max(5px, 1vw);
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 20px;
+}
+.home-searchbar-container img{
+    width: 30px;
+    margin: 0 max(5px, 1vw);
+    cursor: pointer;
+}
+@media (min-width: 901px){
+    .home-searchbar-container{
+        display: none;
+    }
+}

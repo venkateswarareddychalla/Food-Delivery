@@ -1,0 +1,224 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.admin-home {
+  min-height: 100vh;
+  background-color: #fff0ed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 100%;
+}
+
+.admin-container {
+  padding: 30px;
+  border-radius: 25px;
+  max-width: 800px;
+  width: 100%;
+  animation: fadeIn 0.5s ease-in;
+  border: 1px solid gray;
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid rgba(255, 99, 71, 0.1);
+}
+
+.admin-left {
+  text-align: left;
+}
+
+.admin-title {
+  font-size: 2.5rem;
+  color: #ff6347;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(255, 99, 71, 0.1);
+}
+
+.admin-right {
+  text-align: right;
+}
+
+.date {
+  font-size: 1.2rem;
+  color: #ff6347;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.time {
+  font-size: 1.8rem;
+  color: #333;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.admin-content {
+  text-align: center;
+}
+
+.fun-section {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.daily-challenge,
+.chef-mood,
+.admin-quote,
+.food-pun,
+.cooking-tip {
+  padding: 10px;
+  border-radius: 15px;
+  background: rgba(255, 99, 71, 0.05);
+  border-left: 4px solid #ff6347;
+  border-right: 2px solid #ff6347;
+  border-top: 2px solid #ff6347;
+  border-bottom: 2px solid #ff6347;
+}
+
+.daily-challenge,
+.chef-mood,
+.food-pun,
+.cooking-tip {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.challenge-label,
+.mood-label,
+.pun-label,
+.tip-label {
+  font-size: 1rem;
+  color: #ff6347;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.challenge-text,
+.mood-text,
+.pun-text,
+.tip-text {
+  font-size: 1.3rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.mood-emoji {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.admin-quote {
+  font-size: 1.4rem;
+  color: #555;
+  line-height: 1.8;
+  font-style: italic;
+}
+
+.quote-icon {
+  color: #ff6347;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.quote-icon:first-child {
+  margin-right: 8px;
+}
+
+.quote-icon:last-child {
+  margin-left: 8px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .admin-container {
+    padding: 40px 30px;
+    margin: 10px;
+  }
+  
+  .admin-header {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+  
+  .admin-left,
+  .admin-right {
+    text-align: center;
+  }
+  
+  .admin-title {
+    font-size: 2.2rem;
+  }
+  
+  .time {
+    font-size: 1.6rem;
+  }
+  
+  .daily-challenge,
+  .chef-mood,
+  .admin-quote,
+  .food-pun,
+  .cooking-tip {
+    padding: 20px;
+  }
+  
+  .challenge-text,
+  .mood-text,
+  .pun-text,
+  .tip-text {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .admin-container {
+    padding: 30px 20px;
+  }
+  
+  .admin-title {
+    font-size: 2rem;
+  }
+  
+  .time {
+    font-size: 1.4rem;
+  }
+  
+  .daily-challenge,
+  .chef-mood,
+  .admin-quote,
+  .food-pun,
+  .cooking-tip {
+    padding: 15px;
+  }
+  
+  .challenge-text,
+  .mood-text,
+  .pun-text,
+  .tip-text {
+    font-size: 1.1rem;
+  }
+}

@@ -59,6 +59,10 @@ import profile_icon from './profile_icon.png'
 import bag_icon from './bag_icon.png'
 import logout_icon from './logout_icon.png'
 import parcel_icon from './parcel_icon.png'
+import empty_cart from './empty_cart.jpg'
+import empty_menu from './empty_menu.png'
+import empty_search from './empty_search.png'
+import empty_orders from './empty_orders.png'
 
 export const assets = {
     logo,
@@ -79,7 +83,11 @@ export const assets = {
     profile_icon,
     logout_icon,
     bag_icon,
-    parcel_icon
+    parcel_icon,
+    empty_cart,
+    empty_menu,
+    empty_search,
+    empty_orders
 }
 
 export const menu_list = [
