@@ -10,7 +10,7 @@ const Header = () => {
         </h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, delectus mollitia
              vitae porro minima accusantium ab nesciunt natus tempore inventore.</p>
-        <button>View Menu</button>
+        <a href="#explore-menu"><button >View Menu</button></a>
       </div>
     </div>
   )
