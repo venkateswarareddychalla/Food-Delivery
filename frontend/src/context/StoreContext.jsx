@@ -4,7 +4,7 @@ export const StoreContext = createContext(null);
 
 const StoreContextProvider = (props) => {
   // This is the base URL for the backend server.
-  const url = "http://localhost:4000";
+  const url = "https://food-delivery-backend-yczg.onrender.com";
 
   // stores item id as property and no of items as value.
   const [cartItems, setCartItems] = useState({});
